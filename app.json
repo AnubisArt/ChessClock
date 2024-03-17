@@ -4,10 +4,10 @@
     "slug": "ChessClock",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/chessIcon.jpeg",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/chessSplash.gif",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/chessIcon.jpeg",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anubisart.ChessClock"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2c19cb6f-1ec2-4846-9726-a6e9bf8df342"
+      }
     }
   }
 }
